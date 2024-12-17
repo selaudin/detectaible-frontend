@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gradio App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #1f1f1f;
+        }
+        iframe {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <script
+        type="module"
+        src="https://gradio.s3-us-west-2.amazonaws.com/5.8.0/gradio.js"
+    ></script>
+    
+</head>
+<body>
+    <!-- <iframe
+        src="https://agolli-detectai-ble.hf.space"
+        frameborder="0"
+        width="850"
+        height="450"
+    ></iframe> -->
+    <gradio-app src="https://agolli-detectai-ble.hf.space"></gradio-app>
+</body>
+</html>
