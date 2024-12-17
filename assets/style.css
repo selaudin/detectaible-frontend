@@ -1,3 +1,9 @@
 .faq{
     padding: 20px;
 }
+
+.ai{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bolder;
+    color: #465966;
+}
