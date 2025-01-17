@@ -7,3 +7,26 @@
     font-weight: bolder;
     color: #465966;
 }
+
+/* filepath: /Users/selaudinagolli/Desktop/Projects/Aevux/detectaible-frontend/assets/style.css */
+#home {
+    background-image: url('./logo-w.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    height: 100vh;
+    padding-bottom: 30px; /* Adjust the padding as needed */
+}
+
+.text-container {
+    width: 100%;
+    padding: 20px;
+}
+
+#home h2 {
+    margin-bottom: 20px; /* Adjust the spacing as needed */
+}
