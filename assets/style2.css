@@ -5,7 +5,7 @@ html, body {
 body {
     font-family: 'Poppins', sans-serif;
     /* width: 105%; */
-    background-color: gainsboro;
+    background-color: #ebebeb;
 }
 .hero {
     text-align: left;
@@ -42,12 +42,10 @@ body {
     padding: 40px 0;
 }
 .first-page {
-    background-image: url('./images/theme/Blue_White_Striped_Textile_1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-x: right
+    background-image: url('./images/theme/Blue_White_Striped_Textile_2.jpg') !important;
+    background-size: 50%  !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 80% !important;
 }
 .question {
     font-size: 1.2rem;
@@ -122,18 +120,10 @@ body {
     .what-we-do {
         min-height: 900px;
     }
-
-    .text-md-start {
-        padding-left: 0 !important;
-    }
-
-    .linkedin-link {
-        padding-right: 0 !important;
-    }
 }
 
 .carousel-container {
-    background-color: whitesmoke;
+    background-color: gainsboro;
     padding: 30px;
     border-radius: 5px;
     border: 2px solid black;
@@ -153,7 +143,6 @@ body {
 .carousel-inner {
     overflow: visible !important;
 }
-
 
 .section-title {
     display: flex;
@@ -210,7 +199,7 @@ body {
 }
 
 .linkedin-link {
-    padding-right: 50px;
+    /* margin-left: auto; */
     position: relative;
 }
 
@@ -219,9 +208,7 @@ h1 {
     line-height: 0.95;
 }
 
-.text-md-start {
-    padding-left: 40px;
-}
+
 
 
 .carousel-item img {
