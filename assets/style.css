@@ -228,3 +228,12 @@ h1 {
     height: 100%; /* Ensure images take up the full height of the carousel item */
     object-fit: cover; /* Maintain aspect ratio and cover the entire area */
 }
+
+.nav-link{
+    padding-right: 20px !important;
+    text-align: center;
+}
+
+.privacy-policy{
+    padding: 20px;
+}
