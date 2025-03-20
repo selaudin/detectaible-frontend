@@ -5,7 +5,7 @@ html, body {
 body {
     font-family: 'Poppins', sans-serif;
     /* width: 105%; */
-    background-color: gainsboro;
+    background-color: #EFEFEF;
 }
 .hero {
     text-align: left;
@@ -236,4 +236,149 @@ h1 {
 
 .privacy-policy{
     padding: 20px;
+}
+
+.ethos1{
+    background-image: url('./images/services/innovation.png');
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    color: white;
+    min-height: 18em;
+    margin-bottom: 1em;
+}
+
+.ethos2{
+    background-image: url('./images/services/reliable.png');
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    color: white;
+    min-height: 18em;
+    margin-bottom: 1em;
+}
+
+.ethos3{
+    background-image: url('./images/services/growth.png');
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    color: white;
+    min-height: 18em;
+    margin-bottom: 1em;
+}
+
+.ethos-title{
+    padding-top: 4em;
+    padding-left: 10px;
+    margin-bottom: 0 !important;
+}
+
+.ethos-subtitle{
+    padding-left: 10px;
+    margin-bottom: 0 !important;
+}
+
+.ethos-text{
+    padding-left: 10px;
+}
+
+.services-banner{
+    margin-top: 4em;
+    border: 5px solid #fff;
+    background-color: white;
+    position: relative;
+    padding-left: 3em !important;
+    padding-top: 3em !important;
+    padding-bottom: 2em !important;
+    padding-right: 2em !important;
+}
+
+.services-title{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0 !important;
+}
+
+.services-subtitle{
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 0 !important;
+}
+
+.services-text{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.get-in-touch{
+    background-color: #EFEFEF;
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+    padding-left: 25px;
+    font-weight: 500;
+}
+
+.py-6{
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.ethos{
+    letter-spacing: 0;
+    line-height: 23.4px;
+}
+
+.footer-text{
+    margin-bottom: 0 !important;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.service-title{
+    margin-bottom: 1.5em;
+}
+
+@media (max-width: 768px) {
+    .services-banner{
+        margin: 2em 1em 1em 1em;
+        width: auto;
+        padding-left: 1em !important;
+        padding-top: 1em !important;
+        padding-bottom: 1em !important;
+        padding-right: 1em !important;
+    }
+
+    .services-title{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .services-subtitle{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .services-text{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .py-6{
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .footer-text{
+        font-size: 12px;
+    }
 }
