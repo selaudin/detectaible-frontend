@@ -5,7 +5,7 @@ html, body {
 body {
     font-family: 'Poppins', sans-serif;
     /* width: 105%; */
-    background-color: #EFEFEF;
+    background-color: #ececec;
 }
 .hero {
     text-align: left;
@@ -42,12 +42,16 @@ body {
     padding: 40px 0;
 }
 .first-page {
-    background-image: url('./images/theme/Blue_White_Striped_Textile_1.jpg');
-    background-size: cover;
+    background-image: url('./images/theme/Blue_White_Striped_Textile_2.jpg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: 80% 
+    /* background-image: url('./images/theme/Blue_White_Striped_Textile_1.jpg'); */
+    /* background-size: cover;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position-x: right
+    background-position-x: right */
 }
 .question {
     font-size: 1.2rem;
@@ -59,7 +63,7 @@ body {
     font-size: 1.1rem;
     font-weight: normal;
 }
-.background-image{
+/* .background-image{
     position: relative;     
     z-index: 10;            
     background-image: url('./images/theme/image1.png');
@@ -68,7 +72,7 @@ body {
     background-position: 15%;
     overflow: visible;      
     min-height: 700px; 
-}
+} */
 .what-we-do-header::before {
     content: ">";
     color: #e44ba7;
@@ -117,6 +121,12 @@ body {
 
     .first-page{
         background-size: auto;
+        background-image:  url('./images/theme/Blue_White_Striped_Textile_1.jpg');
+        background-size: cover !important;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-x: right
     }
 
     .what-we-do {
