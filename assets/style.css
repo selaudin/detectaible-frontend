@@ -7,18 +7,22 @@ body {
     /* width: 105%; */
     background-color: #ececec;
 }
+
 .hero {
     text-align: left;
     padding: 60px 0;
     margin-bottom: 200px;
 }
+
 .what-we-do {
     min-height: 500px;
 }
+
 .what-we-do ul {
     list-style: none;
     padding: 0;
 }
+
 .what-we-do ul li::before {
     content: '\2713';
     color: rgb(0, 0, 0);
@@ -280,14 +284,15 @@ h1 {
     background-repeat: no-repeat;
     background-position-x: right;
     color: white;
-    min-height: 18em;
+    min-height: 25em;
     margin-bottom: 1em;
 }
 
 .ethos-title{
-    padding-top: 4em;
+    padding-top: 6.5em;
     padding-left: 10px;
     margin-bottom: 0 !important;
+    font-weight: 600;
 }
 
 .ethos-subtitle{
@@ -297,6 +302,7 @@ h1 {
 
 .ethos-text{
     padding-left: 10px;
+    font-size: 1.2em;
 }
 
 .services-banner{
@@ -354,8 +360,107 @@ h1 {
     font-weight: 300;
 }
 
-.service-title{
-    margin-bottom: 1.5em;
+
+.service-table-left {
+    margin-left: 5%;
+    border-collapse: collapse;
+}
+.service-table-left td {
+    border: 1px solid #000;
+    padding: 0;
+}
+.service-table-left img {
+    padding: 0 !important;
+}
+
+.service-table-right {
+    margin-right: 5%;
+    border-collapse: collapse;
+}
+.service-table-right td {
+    border: 1px solid #000;
+    padding: 0;
+}
+
+.service-table-right img {
+    padding: 0 !important;
+}
+
+.service-title {
+    /* font-weight: bold; */
+    font-size: 40px;
+    margin-bottom: 1em;
+    letter-spacing: 0;
+    line-height: 45px;
+}
+.service-img {
+    height: 30em;
+    /* width: 26em;
+    display: block;
+    background-repeat: no-repeat; */
+}
+.service{
+    padding: 2em !important;
+}
+.service-text{
+    padding-right: 2em !important;
+    font-size: 20px;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.structure{
+    background-image: url('./images/services/structure.png');
+    text-align: right;
+    padding-top: 35%;
+    padding-right: 5%;
+}
+.structure p{
+    line-height: 40px;
+    font-size: 1.75em;
+}
+.discover{
+    background-image: url('./images/services/discover.png');
+    text-align: left;
+    color: white;
+    padding-top: 30%;
+    padding-left: 1%;
+}
+.discover p{
+    line-height: 40px;
+    font-size: 1.75em;
+    padding-left: 5%;
+}
+.unlock{
+    background-image: url('./images/services/unlock.png');
+    text-align: right;
+    padding-top: 30%;
+    padding-right: 5%;
+}
+.unlock p{
+    line-height: 40px;
+    font-size: 1.75em;
+}
+.build{
+    background-image: url('./images/services/build.png');
+    text-align: left;
+    color: black;
+    padding-top: 35%;
+    padding-left: 1%;
+}
+.build p{
+    line-height: 40px;
+    font-size: 1.8em;
+    padding-left: 5%;
+}
+.build-bckg{
+    background-color: #d0d0d2;
+}
+.black-bckg{
+    background-color: black;
 }
 
 @media (max-width: 768px) {
@@ -390,5 +495,41 @@ h1 {
 
     .footer-text{
         font-size: 12px;
+    }
+
+    .service-img{
+        display: none;
+    }
+
+    .service-structure{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('./images/services/structure1.png');
+        background-size: cover;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .service-discover{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('./images/services/discover1.png');
+        background-size: cover;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .service-unlock{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('./images/services/unlock1.png');
+        background-size: cover;
+    }
+
+    .service-build{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./images/services/build1.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .service-streamline{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./images/services/streamline1.png');
+        background-size: cover;
+        background-position: center;
+        background-size: 100%;
     }
 }
